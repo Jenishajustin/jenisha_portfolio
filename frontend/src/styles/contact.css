@@ -1,0 +1,73 @@
+.contact-section {
+  
+  color: #ffffff;
+  padding: 0 20px; /* Removed vertical padding to prevent spacing issues */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 0; /* Optional: remove if not in a container */
+  
+}
+
+.contact-container {
+  max-width: 600px;
+  width: 100%;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 224, 255, 0.2);
+}
+
+.contact-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00e0ff;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  color: #cfeeff;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: none;
+  background-color: #ffffff;
+  color: #000;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 14px;
+  border: none;
+  background-color: #00e0ff;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 0 0 12px #00e0ff;
+}

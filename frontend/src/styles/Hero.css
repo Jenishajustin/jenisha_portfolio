@@ -1,0 +1,101 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 40px;
+  width: 70%;
+  margin: auto;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #ffffff;
+  border-radius: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 700px;
+  text-align: center;
+}
+
+.typed-name {
+  font-size: 3rem;
+  font-family: 'Courier New', monospace;
+  color: #00e0ff;
+  display: inline-block;
+  border-right: 2px solid #00e0ff;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: blink-caret 0.75s step-end infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.sparkle-letter {
+  display: inline-block;
+  animation: sparkle 0.8s ease-in-out forwards;
+  position: relative;
+}
+
+@keyframes sparkle {
+  0% {
+    opacity: 0;
+    transform: scale(1.4);
+    color: #07eaff;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+    color: #fff;
+  }
+  100% {
+    transform: scale(1.1);
+    color: #07eaff;
+  }
+}
+
+
+.description {
+  font-size: 1rem;
+  color: #dceeff;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  background-color: #00e0ff;
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000;
+  box-shadow: 0 0 12px #00e0ff;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid #00e0ff;
+  color: #00e0ff;
+}
+
+.btn.secondary:hover {
+  background-color: #00e0ff;
+  color: #000;
+}
