@@ -1,0 +1,65 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+
+# Java/Spring Boot
+/target
+*.class
+*.jar
+*.war
+
+# Node/React
+node_modules/
+build/
+.env
+
+# General
+.DS_Store
+.idea
+*.log
+
+# Frontend specific
+/frontend/node_modules/
+/frontend/build/
+
+# dependencies
+node_modules/
+
+# production
+build/
+
+# misc
+.DS_Store
+.env
+
